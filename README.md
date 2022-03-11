@@ -1,0 +1,1 @@
+This is the first readme for the low-level programming in c learnt at ALX-Software Engineering School
