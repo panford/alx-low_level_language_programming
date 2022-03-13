@@ -1,16 +1,16 @@
 /**
- * This program determines
- * whether a randomly
- * generated number is
- * negative or positive
- */
-
+ * main - Main Entry point for this program
+ * Return: Always 0 (success)
+*/
 #include <stdlib.h>
 #include <time.h>
 
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
+/*
+ * Main Entry point for thoos program
+*/
 int main(void)
 {
 	int n;
@@ -20,15 +20,15 @@ int main(void)
 	/* your code goes there */
 	if (n < 0)
 	{
-	    printf("%d is negative", n);
+	printf("%d is negative\n", n);
 	}
 	else if (n == 0)
 	{
-	  printf("%d is zero\n", n);
+	printf("%d is zero\n", n);
 	}
 	else
 	{
-	    printf("%d is positive", n);
+	printf("%d is positive\n", n);
 	};
 	return (0);
 }
