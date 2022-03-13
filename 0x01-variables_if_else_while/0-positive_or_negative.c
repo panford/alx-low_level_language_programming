@@ -1,8 +1,15 @@
+/**
+ * This program determines
+ * whether a randomly
+ * generated number is
+ * negative or positive
+ */
+
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-/* more headers goes there */
 
+/* more headers goes there */
+#include <stdio.h>
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -11,11 +18,17 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n < 0){
-	  printf("%d is negative", n);
-	    }
-	else{
-	  printf("%d is positive", n);
-	    };
+	if (n < 0)
+	  {
+	    printf("%d is negative", n);
+	  }
+	else if (n == 0)
+	  {
+	    printf("%d is zero\n")
+	  }
+	else
+	  {
+	    printf("%d is positive", n);
+	  };
 	return (0);
 }
