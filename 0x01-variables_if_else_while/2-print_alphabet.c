@@ -6,10 +6,11 @@
 
 int main(void)
 {
-  int i;
-  for (i=0; i < 26; i++)
-    {
-      putchar('A'-1+i);
-    }
+int i;
+for (i=0; i < 26; i++)
+{
+putchar('a'-1+i);
+};
+putchar('\n');
 return (0);
 }
