@@ -12,7 +12,7 @@ char character;
 for (i = 0; i <= 25; i++)
 {
 character = 'a' + i;
-if (character != 'q' || character != 'e')
+if (i != 'q'-'a' || i != 'e'- 'a')
 {
 putchar(character);
 };
