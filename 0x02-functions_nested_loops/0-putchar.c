@@ -2,7 +2,7 @@
  * print_alphabet - Entry point
  * Return:0
  */
-#include"main.h"
+#include "main.h"
 
 int main(void)
 {
